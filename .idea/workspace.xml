@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf67caeb-28ab-4659-b3e6-d919d172df5a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/factories/media.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/photographers/EllieRoseWilkens.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/photographers/MarcelNikolic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/photographers/MimiKeel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/photographers/NabeelBradford.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/photographers/RhodeDubois.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/photographers/TracyGalindo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/photographers.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/photographers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/templates/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/templates/media.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/templates/photographer.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/templates/photographer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -90,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705690905753</updated>
       <workItem from="1705690912755" duration="4799000" />
-      <workItem from="1705832524051" duration="2731000" />
+      <workItem from="1705832524051" duration="4285000" />
     </task>
     <servers />
   </component>

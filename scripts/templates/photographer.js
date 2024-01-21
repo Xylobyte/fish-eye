@@ -17,6 +17,10 @@ class Photographer {
         return this._tagline;
     }
 
+    get price() {
+        return this._price;
+    }
+
     profilImage() {
         return `assets/photographers/${this._portrait}`
     }

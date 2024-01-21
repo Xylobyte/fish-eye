@@ -28,14 +28,6 @@
     text-decoration: underline;
 }
 
-.photographer_section article img {
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    object-fit: cover;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-}
-
 .photographer_section article div {
     display: flex;
     flex-direction: column;

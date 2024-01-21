@@ -9,10 +9,27 @@ class Photographer {
         this._portrait = data.portrait;
     }
 
+    get name() {
+        return this._name;
+    }
+
+    get tagline() {
+        return this._tagline;
+    }
+
+    profilImage() {
+        return `assets/photographers/${this._portrait}`
+    }
+
+    adress() {
+        return `${this._city}, ${this._country}`
+    }
+
     getUserCardDOM() {
         const article = document.createElement('article');
         const img = document.createElement('img');
-        img.setAttribute("src", `assets/photographers/${this._portrait}`);
+        img.classList.add('profil');
+        img.setAttribute("src", this.profilImage());
         const h2 = document.createElement('h2');
         h2.textContent = this._name;
         article.appendChild(img);
@@ -20,7 +37,7 @@ class Photographer {
 
         const infoDiv = document.createElement('div');
         const location = document.createElement('span');
-        location.textContent = `${this._city}, ${this._country}`;
+        location.textContent = this.adress();
         const tagline = document.createElement('p');
         tagline.textContent = this._tagline;
         const price = document.createElement('span');

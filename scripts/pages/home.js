@@ -1,11 +1,15 @@
 async function initView() {
-    const data = await API_Photographers_enum();
-    const photographerSection = document.querySelector('.photographer_section');
+    try {
+        const data = await API_Photographers_enum();
+        const photographerSection = document.querySelector('.photographer_section');
 
-    data.forEach(e => {
-        const photographer = new Photographer(e);
-        photographerSection.appendChild(photographer.getUserCardDOM());
-    })
+        data.forEach(e => {
+            const photographer = new Photographer(e);
+            photographerSection.appendChild(photographer.getUserCardDOM());
+        })
+    } catch (error) {
+        console.error(error);
+    }
 }
 
 window.addEventListener('load', () => {

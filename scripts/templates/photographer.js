@@ -35,6 +35,7 @@ class Photographer {
         img.classList.add('profil');
         img.setAttribute("src", this.profilImage());
         const h2 = document.createElement('h2');
+        h2.classList.add('name');
         h2.textContent = this._name;
         article.appendChild(img);
         article.appendChild(h2);
@@ -59,5 +60,26 @@ class Photographer {
         link.appendChild(article);
 
         return (link);
+    }
+
+    setUserInfoOnPhotographerPage() {
+        const name = document.getElementById('photographer_name');
+        name.textContent = this._name;
+
+        const location = document.getElementById('photographer_location');
+        location.textContent = this.adress();
+
+        const tagline = document.getElementById('photographer_tagline');
+        tagline.textContent = this._tagline;
+
+        const portrait = document.getElementById('photographer_portrait');
+        portrait.setAttribute("src", this.profilImage());
+        portrait.setAttribute("alt", this._name);
+
+        const modalTitle = document.getElementById('modal_title');
+        modalTitle.textContent = `Contactez-moi\n${this._name}`;
+
+        const price = document.getElementById('price');
+        price.textContent = `${this._price}€ / jour`;
     }
 }

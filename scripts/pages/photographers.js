@@ -1,5 +1,6 @@
 // Global object of Photographer
 let photographer = null;
+const mediaList = [];
 
 async function initView() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -14,16 +15,37 @@ async function initView() {
     try {
         const data = await API_Photographer_get(id);
         photographer = new Photographer(data);
-        photographer.setUserInfoOnPhotographerPage();
+        setUserInfoOnPhotographerPage(photographer);
 
         const mediaData = await API_Media_enum(id);
-        console.log(mediaData)
+        mediaList.push(...mediaData);
     } catch (error) {
         console.error(error);
-        alert("Photographer id not found !");
+        alert("Error while fetching data !\n" + error.message);
     }
 }
 
 window.addEventListener('load', () => {
     initView();
 })
+
+function setUserInfoOnPhotographerPage(phtographer) {
+    const name = document.getElementById('photographer_name');
+    name.textContent = photographer.name;
+
+    const location = document.getElementById('photographer_location');
+    location.textContent = photographer.adress();
+
+    const tagline = document.getElementById('photographer_tagline');
+    tagline.textContent = photographer.tagline;
+
+    const portrait = document.getElementById('photographer_portrait');
+    portrait.setAttribute("src", phtographer.profilImage());
+    portrait.setAttribute("alt", photographer.name);
+
+    const modalTitle = document.getElementById('modal_title');
+    modalTitle.textContent = `Contactez-moi\n${photographer.name}`;
+
+    const price = document.getElementById('price');
+    price.textContent = `${photographer.price}€ / jour`;
+}

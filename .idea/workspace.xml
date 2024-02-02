@@ -5,15 +5,189 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf67caeb-28ab-4659-b3e6-d919d172df5a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Connected_Curves.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Cross_Bar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Horseshoe.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Water_on_Modern.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_White_Light.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Jump.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Next_Hold.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Race_End.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Sky_Cross.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Architecture_Connected_Curves.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Architecture_Cross_Bar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Architecture_Horseshoe.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Architecture_Water_on_Modern.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Architecture_White_Light.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Sport_Jump.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Sport_Next_Hold.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Sport_Race_End.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/Sport_Sky_Cross.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/small/sport_water_tunnel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Ellie Rose/sport_water_tunnel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Architecture_Corner_Room.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Architecture_Dome.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Architecture_On_a_hill.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Architecure_Contrast.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Travel _Adventure_Door.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Travel_Bike_and_Stair.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Travel_OpenMountain.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Travel_SunsetonCanals.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/Travel_Tower.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Architecture_Corner_Room.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Architecture_Dome.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Architecture_On_a_hill.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Architecure_Contrast.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Travel _Adventure_Door.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Travel_Bike_and_Stair.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Travel_OpenMountain.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Travel_SunsetonCanals.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Marcel/small/Travel_Tower.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Animals_Rainbow.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Event_BenevidesWedding.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Event_PintoWedding.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Event_SeasideWedding.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Portrait_Background.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Portrait_Nora.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Portrait_Wednesday.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Travel_HillsideColor.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/Travel_Lonesome.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Animals_Rainbow.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Event_BenevidesWedding.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Event_PintoWedding.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Event_SeasideWedding.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Portrait_Background.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Portrait_Nora.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Portrait_Wednesday.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Travel_HillsideColor.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Mimi/small/Travel_Lonesome.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_AfternoonBreak.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_Alexandra.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_Shaw.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_Sunkissed.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Boat_Wanderer.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Bridge_into_Forest.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_On_the_Road.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Outdoor_Baths.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Road_into_Hill.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Portrait_AfternoonBreak.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Portrait_Alexandra.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Portrait_Shaw.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Portrait_Sunkissed.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Travel_Boat_Wanderer.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Travel_Bridge_into_Forest.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Travel_On_the_Road.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Travel_Outdoor_Baths.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Nabeel/small/Travel_Road_into_Hill.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Animals_Majesty.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Event_Emcee.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Event_KeyboardCheck.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Event_ProductPitch.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Event_VentureConference.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Fashion_Melody_Red_on_Stripes.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Fashion_Wings.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Sport_2000_with_8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/Sport_Butterfly.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Animals_Majesty.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Event_Emcee.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Event_KeyboardCheck.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Event_ProductPitch.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Event_VentureConference.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Fashion_Melody_Red_on_Stripes.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Fashion_Wings.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Sport_2000_with_8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Rhode/small/Sport_Butterfly.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Art_Mine.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Art_Purple_light.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Art_Triangle_Man.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Event_18thAnniversary.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Event_Sparklers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Event_WeddingGazebo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Fashion_Pattern_on_Pattern.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Fashion_Urban_Jungle.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/Fashion_Yellow_Beach.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Art_Mine.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Art_Purple_light.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Art_Triangle_Man.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Event_18thAnniversary.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Event_Sparklers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Event_WeddingGazebo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Fashion_Pattern_on_Pattern.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Fashion_Urban_Jungle.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/Tracy/small/Fashion_Yellow_Beach.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/medias/logo.png.xmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Connected_Curves.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Cross_Bar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Horseshoe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_Water_on_Modern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Architecture_White_Light.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Jump.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Next_Hold.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Race_End.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/Sport_Sky_Cross.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Ellie Rose/sport_water_tunnel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Architecture_Corner_Room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Architecture_Dome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Architecture_On_a_hill.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Architecure_Contrast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Travel _Adventure_Door.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Travel_Bike_and_Stair.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Travel_OpenMountain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Travel_SunsetonCanals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel/Travel_Tower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Animals_Rainbow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Event_BenevidesWedding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Event_PintoWedding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Event_SeasideWedding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Portrait_Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Portrait_Nora.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Portrait_Wednesday.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Travel_HillsideColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Mimi/Travel_Lonesome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_AfternoonBreak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_Alexandra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_Shaw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Portrait_Sunkissed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Boat_Wanderer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Bridge_into_Forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_On_the_Road.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Outdoor_Baths.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Nabeel/Travel_Road_into_Hill.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Animals_Majesty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Event_Emcee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Event_KeyboardCheck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Event_ProductPitch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Event_VentureConference.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Fashion_Melody_Red_on_Stripes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Fashion_Wings.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Sport_2000_with_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Rhode/Sport_Butterfly.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Art_Mine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Art_Purple_light.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Art_Triangle_Man.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Event_18thAnniversary.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Event_Sparklers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Event_WeddingGazebo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Fashion_Pattern_on_Pattern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Fashion_Urban_Jungle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/medias/Tracy/Fashion_Yellow_Beach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/photographer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/photographer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photographer.html" beforeDir="false" afterPath="$PROJECT_DIR$/photographer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/factories/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/factories/media.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/pages/photographers.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/pages/photographers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/utils/contactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utils/contactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/templates/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/templates/media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/templates/photographer.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/templates/photographer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ComposerSettings">
     <execution />
@@ -38,32 +212,36 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2bBaPDlKbQoRbKFgtnf1rBgG6Jc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nantsa/Dev/Web/OC/FishEye/fish-eye/assets/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nantsa/Dev/Web/OC/FishEye/fish-eye/assets/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
@@ -91,12 +269,16 @@
       <workItem from="1706876745937" duration="28000" />
       <workItem from="1706876783298" duration="26000" />
       <workItem from="1706876819507" duration="30000" />
-      <workItem from="1706876860472" duration="1889000" />
+      <workItem from="1706876860472" duration="5367000" />
+      <workItem from="1706882795478" duration="6639000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

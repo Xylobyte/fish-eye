@@ -42,6 +42,7 @@
     font-family: "DM Sans", sans-serif;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .button_contact:hover {
@@ -150,4 +151,35 @@
 #contact_modal .modal form button {
     align-self: start;
     padding: 14px 20px;
+}
+
+#photographer_media {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#filter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#filter label {
+    font-weight: bold;
+}
+
+#filter_select {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    background-color: #901C1C;
+    color: white;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+#filter_select:hover {
+    background-color: #D3573C;
 }

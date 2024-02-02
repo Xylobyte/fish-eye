@@ -24,6 +24,11 @@ function sendForm(e) {
     console.log(`First name: ${firstname.value} - Last name: ${lastname.value} - Email: ${email.value} - Message: ${message.value}`);
 
     closeModal();
+
+    firstname.value = '';
+    lastname.value = '';
+    email.value = '';
+    message.value = '';
 }
 
 document.getElementById('contact_form').addEventListener('submit', sendForm);

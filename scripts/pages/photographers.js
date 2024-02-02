@@ -7,6 +7,7 @@ async function initView() {
     const id = idParam ? parseInt(idParam) : null;
 
     if (id === null) {
+        alert("Photographer id not found !");
         throw new Error("Photographer id not found");
     }
 
@@ -14,8 +15,12 @@ async function initView() {
         const data = await API_Photographer_get(id);
         photographer = new Photographer(data);
         photographer.setUserInfoOnPhotographerPage();
+
+        const mediaData = await API_Media_enum(id);
+        console.log(mediaData)
     } catch (error) {
         console.error(error);
+        alert("Photographer id not found !");
     }
 }
 

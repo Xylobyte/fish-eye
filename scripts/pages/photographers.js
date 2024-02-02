@@ -1,6 +1,7 @@
 // Global object of Photographer
 let photographer = null;
 const mediaList = [];
+let filterBy = "popu";
 
 async function initView() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -18,7 +19,10 @@ async function initView() {
         setUserInfoOnPhotographerPage(photographer);
 
         const mediaData = await API_Media_enum(id);
-        mediaList.push(...mediaData);
+        mediaList.push(...mediaData.map((d) => new MediaFactory(d, photographer.name)));
+
+        filterGallery();
+        useLikes();
     } catch (error) {
         console.error(error);
         alert("Error while fetching data !\n" + error.message);
@@ -28,6 +32,23 @@ async function initView() {
 window.addEventListener('load', () => {
     initView();
 })
+
+function filterGallery() {
+    const galleryCard = mediaList.sort((a, b) => {
+        if (filterBy === "popu") {
+            return b.likes - a.likes;
+        } else if (filterBy === "date") {
+            return new Date(b.date) - new Date(a.date);
+        } else {
+            return a.title.localeCompare(b.title);
+        }
+    }).map((media) => {
+        return media.getMediaCardDOM();
+    })
+
+    const gallery = document.getElementById('gallery');
+    gallery.replaceChildren(...galleryCard);
+}
 
 function setUserInfoOnPhotographerPage(phtographer) {
     const name = document.getElementById('photographer_name');

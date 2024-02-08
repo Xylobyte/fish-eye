@@ -40,11 +40,14 @@ class MediaImage extends Media{
 
     getMediaCardDOM() {
         const fig = document.createElement('figure');
-        fig.setAttribute("tabindex", "1");
 
         const img = document.createElement('img');
         img.setAttribute("src", `assets/medias/${this._photographer}/small/${this._image}`);
         img.setAttribute("alt", this._title);
+
+        const a = document.createElement('a');
+        a.setAttribute("href", '#');
+        a.appendChild(img);
 
         const figCaption = document.createElement('figcaption');
         const span = document.createElement('span');
@@ -59,7 +62,7 @@ class MediaImage extends Media{
         figCaption.appendChild(span);
         figCaption.appendChild(button);
 
-        fig.appendChild(img);
+        fig.appendChild(a);
         fig.appendChild(figCaption);
 
         return fig;
@@ -79,11 +82,14 @@ class MediaVideo extends Media {
 
     getMediaCardDOM() {
         const fig = document.createElement('figure');
-        fig.setAttribute("tabindex", "1");
 
         const img = document.createElement('img');
         img.setAttribute("src", `assets/medias/${this._photographer}/small/${this._video.split('.')[0]}.webp`);
         img.setAttribute("alt", this._title);
+
+        const a = document.createElement('a');
+        a.setAttribute("href", '#');
+        a.appendChild(img);
 
         const figCaption = document.createElement('figcaption');
         const span = document.createElement('span');
@@ -98,7 +104,7 @@ class MediaVideo extends Media {
         figCaption.appendChild(span);
         figCaption.appendChild(button);
 
-        fig.appendChild(img);
+        fig.appendChild(a);
         fig.appendChild(figCaption);
 
         return fig;

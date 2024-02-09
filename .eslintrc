@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "script",
+        "parser": "babel-eslint"
+    },
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "no-useless-escape": "warn",
+        "no-console": "warn",
+        "semi": "error",
+        "no-undef": "off",
+        "no-unused-vars": "off"
+    }
+}

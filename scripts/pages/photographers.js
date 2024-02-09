@@ -1,15 +1,16 @@
 // Global variables of Photographer
 let photographer = null;
-const mediaList = [];
+let mediaList = [];
 
 window.addEventListener('load', () => {
     initView();
-})
+    initLightbox();
+});
 
 document.getElementById('filter_select').addEventListener('change', (e) => {
     filterBy = e.target.value;
     filterGallery();
-})
+});
 
 async function initView() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -36,7 +37,7 @@ async function initView() {
     }
 }
 
-function setUserInfoOnPhotographerPage(phtographer) {
+function setUserInfoOnPhotographerPage(photographer) {
     const name = document.getElementById('photographer_name');
     name.textContent = photographer.name;
 
@@ -47,7 +48,7 @@ function setUserInfoOnPhotographerPage(phtographer) {
     tagline.textContent = photographer.tagline;
 
     const portrait = document.getElementById('photographer_portrait');
-    portrait.setAttribute("src", phtographer.profilImage());
+    portrait.setAttribute("src", photographer.profilImage());
     portrait.setAttribute("alt", photographer.name);
 
     const modalTitle = document.getElementById('modal_title');

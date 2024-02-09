@@ -4,7 +4,6 @@ class Media {
         this._title = data.title;
         this._likes = data.likes;
         this._date = data.date;
-        this._price = data.price;
 
         this._liked = false;
     }
@@ -41,16 +40,12 @@ class MediaImage extends Media{
         this._photographer = photographerName;
     }
 
-    isImage() {
-        return true;
-    }
-
     getMediaCardDOM() {
         const fig = document.createElement('figure');
 
         const img = document.createElement('img');
         img.setAttribute("src", `assets/medias/${this._photographer}/small/${this._image}`);
-        img.setAttribute("alt", `Open image ${this._title}`);
+        img.setAttribute("alt", `${this._title}, closeup view`);
 
         const a = document.createElement('a');
         a.setAttribute("href", '#');
@@ -74,6 +69,18 @@ class MediaImage extends Media{
 
         return fig;
     }
+
+    getMediaModalDOM() {
+        const elements = [];
+
+        const img = document.createElement('img');
+        img.setAttribute("src", `assets/medias/${this._photographer}/${this._image}`);
+        img.setAttribute("alt", `${this._title}`);
+
+        elements.push(img);
+
+        return elements;
+    }
 }
 
 class MediaVideo extends Media {
@@ -81,10 +88,6 @@ class MediaVideo extends Media {
         super(data);
         this._video = data.video;
         this._photographer = photographerName;
-    }
-
-    isImage() {
-        return false;
     }
 
     getMediaCardDOM() {
@@ -115,5 +118,9 @@ class MediaVideo extends Media {
         fig.appendChild(figCaption);
 
         return fig;
+    }
+
+    getMediaModalDOM() {
+
     }
 }

@@ -22,11 +22,11 @@ class Photographer {
     }
 
     profilImage() {
-        return `assets/photographers/${this._portrait}`
+        return `assets/photographers/${this._portrait}`;
     }
 
     adress() {
-        return `${this._city}, ${this._country}`
+        return `${this._city}, ${this._country}`;
     }
 
     getUserCardDOM() {

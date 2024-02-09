@@ -6,7 +6,7 @@ document.getElementById('contact_modal').addEventListener('keydown', (e) => {
     if (modalOpen && e.key === 'Escape') {
         closeModal();
     }
-})
+});
 
 function displayModal() {
     const modal = document.getElementById("contact_modal");

@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf67caeb-28ab-4659-b3e6-d919d172df5a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/utils/lightbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/photographer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/photographer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photographer.html" beforeDir="false" afterPath="$PROJECT_DIR$/photographer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/pages/photographers.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/pages/photographers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/templates/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/templates/media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/templates/photographer.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/templates/photographer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/utils/contactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utils/contactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/utils/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utils/filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/utils/likes.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/utils/likes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +49,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -70,7 +82,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,7 +118,7 @@
       <workItem from="1707397410419" duration="28000" />
       <workItem from="1707399721550" duration="5015000" />
       <workItem from="1707473923107" duration="183000" />
-      <workItem from="1707474770121" duration="11937000" />
+      <workItem from="1707474770121" duration="19736000" />
     </task>
     <servers />
   </component>

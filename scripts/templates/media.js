@@ -13,6 +13,10 @@ class Media {
         return this._id;
     }
 
+    get liked() {
+        return this._liked;
+    }
+
     get likes() {
         return this._liked ? this._likes + 1 : this._likes;
     }
@@ -46,7 +50,7 @@ class MediaImage extends Media{
 
         const img = document.createElement('img');
         img.setAttribute("src", `assets/medias/${this._photographer}/small/${this._image}`);
-        img.setAttribute("alt", this._title);
+        img.setAttribute("alt", `Open image ${this._title}`);
 
         const a = document.createElement('a');
         a.setAttribute("href", '#');
@@ -57,7 +61,7 @@ class MediaImage extends Media{
         span.textContent = this._title;
 
         const button = document.createElement('button');
-        button.setAttribute("aria-label", "Likes");
+        button.setAttribute("aria-label", `Like ${this._title}`);
         button.setAttribute("data-media-id", this._id);
         button.classList.add("like_btn");
         button.innerHTML = `${this.likes} ${this._liked ? likedSvg : likeSvg}`;
@@ -88,7 +92,7 @@ class MediaVideo extends Media {
 
         const img = document.createElement('img');
         img.setAttribute("src", `assets/medias/${this._photographer}/small/${this._video.split('.')[0]}.webp`);
-        img.setAttribute("alt", this._title);
+        img.setAttribute("alt", `Afficher la photo ${this._title}`);
 
         const a = document.createElement('a');
         a.setAttribute("href", '#');
@@ -102,7 +106,7 @@ class MediaVideo extends Media {
         button.setAttribute("aria-label", "Likes");
         button.setAttribute("data-media-id", this._id);
         button.classList.add("like_btn");
-        button.innerHTML = this.likes + ' ' + likeSvg;
+        button.innerHTML = `${this.likes} ${this._liked ? likedSvg : likeSvg}`;
 
         figCaption.appendChild(span);
         figCaption.appendChild(button);

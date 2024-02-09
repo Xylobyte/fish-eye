@@ -11,8 +11,9 @@ function useLikes() {
 
         likeBtn.addEventListener("click", () => {
             media.like();
+            likeBtn.innerHTML = `${media.likes} ${media.liked ? likedSvg : likeSvg}`
+            likeBtn.setAttribute('aria-label', `${media.liked ? 'Unlike' : 'Like'} ${media.title}`);
             calculateTotalLikes();
-            filterGallery();
         })
     }
 }

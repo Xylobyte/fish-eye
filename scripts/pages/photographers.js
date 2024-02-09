@@ -56,3 +56,14 @@ function setUserInfoOnPhotographerPage(phtographer) {
     const price = document.getElementById('price');
     price.textContent = `${photographer.price}€ / jour`;
 }
+
+function setTabIndex(remove = false) {
+    const elements = document.querySelectorAll('#main a, #main button, header a');
+    elements.forEach((e) => {
+        if (!remove) {
+            e.setAttribute('tabindex', '-1');
+        } else {
+            e.removeAttribute('tabindex');
+        }
+    });
+}

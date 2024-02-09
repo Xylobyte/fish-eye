@@ -1,3 +1,7 @@
+window.addEventListener('load', () => {
+    initView();
+})
+
 async function initView() {
     try {
         const data = await API_Photographers_enum();
@@ -11,7 +15,3 @@ async function initView() {
         console.error(error);
     }
 }
-
-window.addEventListener('load', () => {
-    initView();
-})

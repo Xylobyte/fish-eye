@@ -1,7 +1,16 @@
-// Global object of Photographer
+// Global variables of Photographer
 let photographer = null;
 const mediaList = [];
 let filterBy = "popu";
+
+window.addEventListener('load', () => {
+    initView();
+})
+
+document.getElementById('filter_select').addEventListener('change', (e) => {
+    filterBy = e.target.value;
+    filterGallery();
+})
 
 async function initView() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -22,22 +31,18 @@ async function initView() {
         mediaList.push(...mediaData.map((d) => new MediaFactory(d, photographer.name)));
 
         filterGallery();
-        useLikes();
     } catch (error) {
         console.error(error);
         alert("Error while fetching data !\n" + error.message);
     }
 }
 
-window.addEventListener('load', () => {
-    initView();
-})
-
 function filterGallery() {
     const galleryCard = mediaList.sort((a, b) => {
         if (filterBy === "popu") {
             return b.likes - a.likes;
         } else if (filterBy === "date") {
+            console.log('filter by date: ', b);
             return new Date(b.date) - new Date(a.date);
         } else {
             return a.title.localeCompare(b.title);
@@ -48,6 +53,8 @@ function filterGallery() {
 
     const gallery = document.getElementById('gallery');
     gallery.replaceChildren(...galleryCard);
+
+    useLikes();
 }
 
 function setUserInfoOnPhotographerPage(phtographer) {

@@ -11,8 +11,8 @@ function useLikes() {
 
         likeBtn.addEventListener("click", () => {
             media.like();
-            likeBtn.innerHTML = `${media.likes} ${media.liked ? likedSvg : likeSvg}`
             calculateTotalLikes();
+            filterGallery();
         })
     }
 }

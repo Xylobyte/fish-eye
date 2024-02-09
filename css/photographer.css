@@ -186,13 +186,15 @@
 
 #gallery {
     display: grid;
-    grid-template-columns: repeat(3, calc(100% / 3));
+    grid-template-columns: repeat(3, calc(88% / 3));
+    gap: 20px 6%;
+    margin-top: 20px;
 }
 
 #gallery figure {
     display: flex;
     flex-direction: column;
-    margin: 10px 30px;
+    margin: 0;
     gap: 5px;
 }
 

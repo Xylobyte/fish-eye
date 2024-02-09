@@ -1,7 +1,6 @@
 class Media {
     constructor(data) {
         this._id = data.id;
-        this._photographerId = data.photographerId;
         this._title = data.title;
         this._likes = data.likes;
         this._date = data.date;
@@ -18,8 +17,12 @@ class Media {
         return this._liked ? this._likes + 1 : this._likes;
     }
 
-    get liked() {
-        return this._liked;
+    get date() {
+        return this._date;
+    }
+
+    get title() {
+        return this._title;
     }
 
     like() {
@@ -57,7 +60,7 @@ class MediaImage extends Media{
         button.setAttribute("aria-label", "Likes");
         button.setAttribute("data-media-id", this._id);
         button.classList.add("like_btn");
-        button.innerHTML = this.likes + ' ' + likeSvg;
+        button.innerHTML = `${this.likes} ${this._liked ? likedSvg : likeSvg}`;
 
         figCaption.appendChild(span);
         figCaption.appendChild(button);

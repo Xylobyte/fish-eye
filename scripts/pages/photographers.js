@@ -59,7 +59,7 @@ function setUserInfoOnPhotographerPage(photographer) {
 }
 
 function setTabIndex(remove = false) {
-    const elements = document.querySelectorAll('#main a, #main button, header a');
+    const elements = document.querySelectorAll('#main a, #main button, #main select, #main input, header a');
     elements.forEach((e) => {
         if (!remove) {
             e.setAttribute('tabindex', '-1');

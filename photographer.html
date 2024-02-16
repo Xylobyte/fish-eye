@@ -57,7 +57,7 @@
 	<div class="modal" aria-labelledby="modal_title">
 		<header>
 			<h2 id="modal_title">Contactez-moi</h2>
-			<button id="close_modal" aria-label="Close Contact Form" onclick="closeModal()">
+			<button id="close_modal" aria-label="Close Contact Form" title="Close Contact Form" onclick="closeModal()">
 				<img alt="" src="assets/icons/close.svg"/>
 			</button>
 		</header>
@@ -83,19 +83,23 @@
 
 <div id="lightbox">
 	<div id="modal" aria-label="Image closeup view">
-		<button aria-label="Close dialog" onclick="closeLightbox()" id="close_lightbox">
-			<img alt="" src="assets/icons/close.svg"/>
+		<button aria-label="Close dialog" title="Close dialog" onclick="closeLightbox()" id="close_lightbox">
+			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+				 stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x">
+				<path d="M18 6 6 18"/>
+				<path d="m6 6 12 12"/>
+			</svg>
 		</button>
-		<button aria-label="Previous image" id="btn_prev" onclick="">
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+		<button aria-label="Previous image" title="Previous image" id="btn_prev" onclick="">
+			<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
 				 stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left">
 				<path d="m15 18-6-6 6-6"/>
 			</svg>
 		</button>
 		<figure id="media_show">
 		</figure>
-		<button aria-label="Next image" id="btn_next" onclick="">
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+		<button aria-label="Next image" title="Next image" id="btn_next" onclick="">
+			<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
 				 stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
 				<path d="m9 18 6-6-6-6"/>
 			</svg>

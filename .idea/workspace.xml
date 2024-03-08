@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf67caeb-28ab-4659-b3e6-d919d172df5a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/medias/Marcel Nikolic/Travel _Adventure_Door.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/medias/Marcel Nikolic/Travel_Adventure_Door.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/photographer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/photographer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
       </set>
     </attachedChunks>
   </component>
@@ -108,7 +107,8 @@
       <workItem from="1707473923107" duration="183000" />
       <workItem from="1707474770121" duration="19736000" />
       <workItem from="1708079089527" duration="1062000" />
-      <workItem from="1708086092052" duration="9150000" />
+      <workItem from="1708086092052" duration="9677000" />
+      <workItem from="1709886655800" duration="164000" />
     </task>
     <servers />
   </component>

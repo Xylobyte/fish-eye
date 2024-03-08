@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     initView();
-})
+});
 
 async function initView() {
     try {
@@ -10,7 +10,7 @@ async function initView() {
         data.forEach(e => {
             const photographer = new Photographer(e);
             photographerSection.appendChild(photographer.getUserCardDOM());
-        })
+        });
     } catch (error) {
         console.error(error);
     }

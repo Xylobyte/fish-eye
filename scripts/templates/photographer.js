@@ -34,6 +34,7 @@ class Photographer {
         const img = document.createElement('img');
         img.classList.add('profil');
         img.setAttribute("src", this.profilImage());
+        img.setAttribute("alt", "");
         const h2 = document.createElement('h2');
         h2.classList.add('name');
         h2.textContent = this._name;

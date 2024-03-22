@@ -12,7 +12,7 @@ document.getElementById('filter_select').addEventListener('change', (e) => {
     filterGallery();
 });
 
-async function initView() {
+const initView = async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const idParam = urlParams.get('id');
     const id = idParam ? parseInt(idParam) : null;
@@ -35,9 +35,9 @@ async function initView() {
         console.error(error);
         alert("Error while fetching data !\n" + error.message);
     }
-}
+};
 
-function setUserInfoOnPhotographerPage(photographer) {
+const setUserInfoOnPhotographerPage = (photographer) => {
     const name = document.getElementById('photographer_name');
     name.textContent = photographer.name;
 
@@ -56,9 +56,9 @@ function setUserInfoOnPhotographerPage(photographer) {
 
     const price = document.getElementById('price');
     price.textContent = `${photographer.price}€ / jour`;
-}
+};
 
-function setTabIndex(remove = false) {
+const setTabIndex = (remove = false) => {
     const elements = document.querySelectorAll('#main a, #main button, #main select, #main input, header a');
     elements.forEach((e) => {
         if (!remove) {
@@ -67,4 +67,4 @@ function setTabIndex(remove = false) {
             e.removeAttribute('tabindex');
         }
     });
-}
+};

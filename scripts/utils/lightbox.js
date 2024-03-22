@@ -14,21 +14,21 @@ document.getElementById('lightbox').addEventListener('keydown', (e) => {
 document.getElementById('btn_next').addEventListener('click', () => lightboxNext());
 document.getElementById('btn_prev').addEventListener('click', () => lightboxPrev());
 
-function lightboxNext() {
+const lightboxNext = () => {
     if (actualIndex < mediaList.length-1) actualIndex++;
     else actualIndex = 0;
 
     displayLightbox();
-}
+};
 
-function lightboxPrev() {
+const lightboxPrev = () => {
     if (actualIndex > 0) actualIndex--;
     else actualIndex = mediaList.length-1;
 
     displayLightbox();
-}
+};
 
-function initLightbox() {
+const initLightbox = () => {
     const links = document.querySelectorAll("#gallery > figure");
     links.forEach((link, i) => {
         link.querySelector('a').addEventListener('click', (e) => {
@@ -37,9 +37,9 @@ function initLightbox() {
             displayLightbox();
         });
     });
-}
+};
 
-function displayLightbox() {
+const displayLightbox = () => {
     const modal = document.getElementById("lightbox");
 
     const fig = document.getElementById('media_show');
@@ -54,12 +54,12 @@ function displayLightbox() {
     lightboxOpen = true;
 
     setTabIndex();
-}
+};
 
-function closeLightbox() {
+const closeLightbox = () => {
     const modal = document.getElementById("lightbox");
     modal.style.display = "none";
     lightboxOpen = false;
 
     setTabIndex(true);
-}
+};

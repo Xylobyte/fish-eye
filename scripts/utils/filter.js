@@ -1,6 +1,6 @@
 let filterBy = "popu";
 
-function filterGallery() {
+const filterGallery = () => {
     mediaList = mediaList.sort((a, b) => {
         if (filterBy === "popu") {
             return b.likes - a.likes;
@@ -20,4 +20,4 @@ function filterGallery() {
 
     useLikes();
     initLightbox();
-}
+};
